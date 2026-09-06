@@ -1,0 +1,28 @@
+/* DCT typography tokens — Helvetica LT Pro (English) / Helvetica Neue Arabic */
+:root {
+  --font-sans: "Helvetica LT Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-arabic: "Helvetica Neue Arabic", "Helvetica LT Pro", Tahoma, sans-serif;
+
+  /* Weights — max 3 per page; create hierarchy with SIZE not weight */
+  --weight-light: 300;   /* body text */
+  --weight-regular: 400; /* sub-headings */
+  --weight-bold: 700;    /* headlines, CTAs */
+
+  /* Type scale (presentation/web oriented) */
+  --text-display: 44px;  /* hero statements */
+  --text-h1: 36px;       /* headlines */
+  --text-h2: 24px;       /* sub-headings */
+  --text-h3: 20px;
+  --text-body-lg: 18px;
+  --text-base: 16px;     /* body */
+  --text-sm: 14px;
+  --text-caption: 12px;
+
+  /* Line heights — generous 1.2–1.5 per brand rules */
+  --leading-tight: 1.15;
+  --leading-snug: 1.3;
+  --leading-normal: 1.45;
+
+  --tracking-normal: 0;   /* DCT rule: character spacing always normal */
+  --tracking-label: 0.08em; /* for small uppercase labels only */
+}

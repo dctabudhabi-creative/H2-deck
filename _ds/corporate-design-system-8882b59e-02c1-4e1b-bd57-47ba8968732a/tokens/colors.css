@@ -1,0 +1,48 @@
+/* DCT colour system — from DCT Corporate Guidelines & AI Brand Reference v1.7 */
+:root {
+  /* ---- Primary palette (appears in every output) ---- */
+  --dct-dawn: #F77860;       /* signature accent — must appear in every output */
+  --dct-sandstone: #E3DCD3;  /* dominant neutral — default surface */
+  --dct-black: #1A1A1A;      /* primary text, dark surfaces */
+  --dct-white: #F9F9F9;      /* off-white page background (never pure #fff) */
+
+  /* ---- Secondary palette (use ONE at a time) ---- */
+  --dct-stargaze: #4832B8;   /* desert night sky */
+  --dct-flamingo: #CD3151;   /* vibrant Abu Dhabi details */
+  --dct-palm: #1C9667;       /* Abu Dhabi nature */
+
+  /* ---- Dawn tints/shades (derived, for hover/press/borders) ---- */
+  --dct-dawn-press: #E25E45;
+  --dct-dawn-soft: #FBC7BC;
+  --dct-dawn-wash: #FDEAE5;
+
+  /* ---- Neutral ramp (derived from Sandstone/Black) ---- */
+  --dct-sandstone-deep: #D5CCBF;
+  --dct-sandstone-line: #C9BFB0;
+  --dct-grey-900: #1A1A1A;
+  --dct-grey-700: #4A4A4A;
+  --dct-grey-500: #777270;
+  --dct-grey-300: #B5AEA6;
+
+  /* ---- Dashboard dark-mode surfaces ---- */
+  --dct-dash-bg: #1A1A1A;
+  --dct-dash-card: #2A2A2A;
+  --dct-dash-card-2: #333333;
+  --dct-dash-grid: #444444;
+  --dct-dash-axis: #555555;
+  --dct-dash-text: #F9F9F9;
+  --dct-dash-text-muted: #CCCCCC;
+
+  /* ---- Semantic aliases ---- */
+  --surface-page: var(--dct-white);
+  --surface-content: var(--dct-sandstone);
+  --surface-card: #FFFFFF;
+  --surface-dark: var(--dct-black);
+  --text-body: var(--dct-black);
+  --text-muted: var(--dct-grey-500);
+  --text-on-dark: var(--dct-white);
+  --accent: var(--dct-dawn);
+  --accent-press: var(--dct-dawn-press);
+  --border-subtle: var(--dct-sandstone-line);
+  --focus-ring: var(--dct-stargaze);
+}

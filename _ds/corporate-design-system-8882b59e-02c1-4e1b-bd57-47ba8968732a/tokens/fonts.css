@@ -1,0 +1,47 @@
+/* DCT brand webfonts — real licensed files supplied by DCT */
+
+/* English — Helvetica LT Pro */
+@font-face {
+  font-family: "Helvetica LT Pro";
+  src: url("../assets/fonts/HelveticaLTPro-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica LT Pro";
+  src: url("../assets/fonts/HelveticaLTPro-Roman.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica LT Pro";
+  src: url("../assets/fonts/HelveticaLTPro-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Arabic — Helvetica Neue LT Arabic */
+@font-face {
+  font-family: "Helvetica Neue Arabic";
+  src: url("../assets/fonts/HelveticaNeueLTArabic-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue Arabic";
+  src: url("../assets/fonts/HelveticaNeueLTArabic-Roman.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue Arabic";
+  src: url("../assets/fonts/HelveticaNeueLTArabic-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
